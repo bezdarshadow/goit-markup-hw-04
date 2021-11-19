@@ -104,6 +104,26 @@ ul {
   margin-left: auto;
 }
 
+
+.contacts.list .list-item::before{
+  content: "";
+  margin-right: 10px;
+}
+
+.contacts.list .list-item:nth-child(1):before{
+  width: 16px;
+  height: 12px;
+  background-image: url(../images/icons.svg#icon-envelope);
+}
+
+
+.contacts.list .list-item:nth-child(2):before{
+  width: 10px;
+  height: 16px;
+  background-image: url(../images/icons.svg#icon-smartphone);
+}
+
+
 .page-header .logo {
     margin-right: 93px;  
 }
@@ -192,6 +212,51 @@ ul {
 .page-footer .number {
   display: block;
   margin-top: 9px;
+}
+
+
+.page-footer .container{
+  display: flex;
+}
+
+
+.footer-link{
+  margin-left: 10px;
+}
+
+.footer-link:first-child{
+  margin-left: 0px;
+}
+
+.footer-link .link{
+  display: flex;
+  background-color: rgba(255, 255, 255, 0.1);
+  width: 44px;
+  height: 44px;
+  border-radius: 50%;
+}
+
+.footer-link .link:hover{
+  background-color: var(--accent-text-color);
+}
+
+.link-icon{
+  fill: var(--another-text-color);
+  background-repeat: no-repeat;
+  
+}
+
+.container-footerlinks{
+  margin-left: 70px;
+}
+
+.container-footerlinks .title{
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+  color: var(--another-text-color);
+  margin-bottom: 20px;
 }
 
 .address-text {
@@ -320,6 +385,35 @@ ul {
   width: 270px;
 }
 
+
+.section.features .section-list-item::before {
+  content: "";
+  display: block;
+  height: 120px;
+  margin-bottom: 30px;
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-color: var(--button-bg-color);
+}
+
+.section.features .section-list-item:nth-child(1)::before{
+  background-image: url(../images/icons.svg#icon-antenna);
+}
+
+.section.features .section-list-item:nth-child(2)::before{
+  background-image: url(../images/icons.svg#icon-clock);
+}
+
+.section.features .section-list-item:nth-child(3)::before{
+  background-image: url(../images/icons.svg#icon-diagram);
+}
+
+.section.features .section-list-item:nth-child(4)::before{
+  background-image: url(../images/icons.svg#icon-astronaut);
+}
+
+
 .section.features .section-list-item:first-child {
   margin-left: 0px;
 }
@@ -384,6 +478,29 @@ ul {
 .section.clients .section-title{
   margin-bottom: 50px;
 }
+
+.section.clients .section-list {
+  justify-content: center;
+}
+
+
+.company-item {
+  display: block;
+  fill: var(--main-icons-color);
+  margin-left: 30px;
+  border: 1px solid var(--main-icons-color);
+  border-radius: 4px;
+}
+
+.company-item:first-child{
+  margin-left: 0px;
+}
+
+.company-item:hover{
+  fill: var(--accent-text-color);
+  border: 1px solid var(--accent-text-color)
+}
+
 
 
 .portfolio-gallery .title {
