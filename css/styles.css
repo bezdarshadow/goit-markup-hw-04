@@ -8,6 +8,8 @@
   --another-text-color: #ffffff;
   --button-bg-color: #f5f4fa;
   --address-text-color: rgba(255, 255, 255, 0.6);
+  --main-icons-color:#AFB1B8;
+
 }
 
 body {
@@ -377,6 +379,13 @@ ul {
 .section.team .card {
   border-radius: 0px 0px 4px 4px;
 }
+
+
+.section.clients .section-title{
+  margin-bottom: 50px;
+}
+
+
 .portfolio-gallery .title {
   color: var(--secondary-text-color);
   font-size: 18px;
