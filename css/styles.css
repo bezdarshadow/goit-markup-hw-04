@@ -515,11 +515,6 @@ ul {
 
 
 .footer-card-link{
-  width: 44px;
-  height: 44px;
-  padding: 12px;
-  display: flex;
-  border-radius: 50%;
   margin-left: 10px;
 }
 
@@ -527,8 +522,16 @@ ul {
   margin-left: 0px;
 }
 
+.footer-card-link .link{
+  width: 44px;
+  height: 44px;
+  padding: 12px;
+  display: flex;
+  border-radius: 50%;
+}
 
-.footer-card-link:hover{
+
+.footer-card-link .link:hover{
   background-color: var(--accent-text-color);
 }
 
