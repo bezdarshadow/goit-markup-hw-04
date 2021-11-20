@@ -240,6 +240,7 @@ ul {
 }
 
 .footer-link .link{
+  padding: 12px;
   display: flex;
   background-color: rgba(255, 255, 255, 0.1);
   width: 44px;
@@ -514,6 +515,11 @@ ul {
 
 
 .footer-card-link{
+  width: 44px;
+  height: 44px;
+  padding: 12px;
+  display: flex;
+  border-radius: 50%;
   margin-left: 10px;
 }
 
@@ -524,7 +530,6 @@ ul {
 
 .footer-card-link:hover{
   background-color: var(--accent-text-color);
-  border-radius: 50%;
 }
 
 
