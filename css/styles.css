@@ -106,12 +106,20 @@ ul {
 
 
 .header-icon {
+  fill: currentColor;
+  margin-right: 10px;
+}
+
+
+
+/* 
+.header-icon {
   fill: var(--main-text-color);
 }
 
 .header-icon:hover {
   fill: var(--accent-text-color);
-}
+} */
 
 
 
