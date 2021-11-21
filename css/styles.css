@@ -514,12 +514,16 @@ ul {
 }
 
 .footer-card-icon{
-  fill: var(--main-icons-color);
+  fill: currentColor;
 }
 
-.footer-card-icon:hover{
-  fill: var(--another-text-color);
-}
+/* .footer-card-icon{
+  fill: var(--main-icons-color);
+} */
+
+/* .footer-card-icon:hover{
+  fill: currentColor
+} */
 
 
 .footer-card-link{
@@ -534,12 +538,14 @@ ul {
   width: 44px;
   height: 44px;
   padding: 12px;
-  display: flex;
+  display: block;
   border-radius: 50%;
-}
+  color: var(--main-icons-color);
+} 
 
 
 .footer-card-link .link:hover{
+  color: var(--another-text-color);
   background-color: var(--accent-text-color);
 }
 
