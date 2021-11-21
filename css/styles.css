@@ -237,6 +237,7 @@ ul {
 
 .page-footer .container{
   display: flex;
+  align-items: baseline;
 }
 
 
